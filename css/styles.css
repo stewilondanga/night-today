@@ -38,13 +38,14 @@ body {
   background-position: 0 0;
 }
 
-/*.content{
+.content {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.content > i{
+
+/*.content > i{
   font-size: 44px;
   transition: all .2s ease-in;
 }

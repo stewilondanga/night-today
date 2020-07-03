@@ -8,6 +8,17 @@ html, body {
   align-items: center;
 }
 
+body {
+  background-image: linear-gradient(to right,
+    #303030,
+    #303030 50%,
+    #FAFAFA 50%,
+    #FAFAFA);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .2s ease-in;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -31,16 +42,6 @@ html, body {
   height: 1.5em;
 }
 
-body{
-    background-image: linear-gradient(to right,
-                                      #303030,
-                                      #303030 50%,
-                                      #FAFAFA 50%,
-                                      #FAFAFA);
-    background-position: 100% 0;
-    background-size: 200% 100%;
-    transition: all .2s ease-in;
-}
 .night{
     background-position: 0 0;
 }

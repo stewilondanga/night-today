@@ -98,9 +98,11 @@ body {
   background: #bcbdbc;
 }
 
-/*.hidden { display: none; }
+.hidden {
+  display: none;
+}
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }

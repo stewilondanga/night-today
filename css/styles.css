@@ -51,17 +51,18 @@ body {
 }
 
 /* custom checkbox*/
-/*.switch {
-    position: relative;
-    display: block;
-    height: 20px;
-    width: 44px;
-    background: #303030;
-    border-radius: 100px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .switch:after {
+.switch {
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 44px;
+  background: #303030;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/*.switch:after {
     position: absolute;
     left: -2px;
     top: -3px;

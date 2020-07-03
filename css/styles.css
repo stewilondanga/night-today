@@ -84,11 +84,12 @@ body {
   background: #EBEBEB;
 }
 
-/*.cbx:checked ~ label:after {
-    left: 20px;
-    background: #FFFFFF;
-  }
-  .cbx:disabled ~ label {
+.cbx:checked~label:after {
+  left: 20px;
+  background: #FFFFFF;
+}
+
+/*.cbx:disabled ~ label {
     background: #d5d5d5;
     pointer-events: none;
   }

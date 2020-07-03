@@ -94,8 +94,11 @@ body {
   pointer-events: none;
 }
 
-/*.cbx:disabled ~ label:after { background: #bcbdbc; }
-  .hidden { display: none; }
+.cbx:disabled~label:after {
+  background: #bcbdbc;
+}
+
+/*.hidden { display: none; }
 
 .containers {
   width: 520px;

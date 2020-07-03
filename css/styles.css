@@ -80,8 +80,11 @@ body {
   transform: scale(1.15, 0.85);
 }
 
-/*.cbx:checked ~ label { background: #EBEBEB; }
-  .cbx:checked ~ label:after {
+.cbx:checked~label {
+  background: #EBEBEB;
+}
+
+/*.cbx:checked ~ label:after {
     left: 20px;
     background: #FFFFFF;
   }

@@ -45,10 +45,11 @@ body {
   align-items: center;
 }
 
-/*.content > i{
+.content>i {
   font-size: 44px;
   transition: all .2s ease-in;
 }
+
 /* custom checkbox*/
 /*.switch {
     position: relative;
